@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Job Application Form</title>
+</head>
+<body>
+     <h1>Online Job Application Form</h1>
+       <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" placeholder="Enter your full name" required><br>
+            <label>national id number:</label><br>
+            <input type="text" name="nationalid" placeholder="Enter your national id number" required><br>
+            <label>email address:</label><br>
+            <input type="email" name="email" placeholder="Enter your email address" required><br>
+            <label>phone number:</label><br>
+            <input type="tel" name="phone" placeholder="Enter your phone number" required><br>
+            <label>date of birth:</label><br>
+            <input type="date" name="dob" required><br>
+            <label>gender:</label><br>
+            <input type="radio" name="gender" value="male" required> Male<br>
+            <input type="radio" name="gender" value="female" required> Female<br>
+            <input type="radio" name="gender" value="other" required> Other<br>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>job information</legend>
+            <label>position applied for:</label><br>
+            <select name="position">
+                <option selected>software developer</option>
+                <option>web designer</option>
+                <option>database administrator</option>
+                <option>it support officer</option>
+            
+
+            </select><br>
+            <label>experience level:</label><br>
+            <select name="experience">
+                <option selected>fresher</option>
+                <option>1-2 years</option>
+                <option>3-5 years</option>
+                <option>more than 5 years</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>skills</legend
+                >
+                <input type ="checkbox" name="skills" value="html"> HTML<br>
+                <input type ="checkbox" name="skills" value="css"> CSS<br>
+                <input type ="checkbox" name="skills" value="javascript"> JavaScript<br>
+                <input type ="checkbox" name="skills" value="python"> Python<br>
+                <input type ="checkbox" name="skills" value="sql"> SQL<br>
+               
+            </fieldset>
+           <br>
+           <fildset>
+            <legend>additional information</legend>
+            <label>upload resume/cv:</label><br>
+            <input type="file" name="resume"><br>
+            <label>cover letter:</label><br>
+            <textarea name="coverletter" rows="5" cols="40"></textarea><br>
+            <label>current address:</label><br>
+            <textarea name="address" rows="3" cols="40"></textarea><br>
+           </fildset>
+           <br>
+           <button type="submit">Submit</button>    
+           <button type="reset">Reset</button>
+           
+
+        </form>
+    </body>
+</html>
