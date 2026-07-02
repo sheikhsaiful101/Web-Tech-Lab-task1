@@ -1,77 +1,149 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Job Application Form</title>
+    <title>College website</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-     <h1>Online Job Application Form</h1>
-       <fieldset>
-            <legend>Personal Information</legend>
-            <label>Full Name:</label><br>
-            <input type="text" name="fullname" placeholder="Enter your full name" required><br>
-            <label>national id number:</label><br>
-            <input type="text" name="nationalid" placeholder="Enter your national id number" required><br>
-            <label>email address:</label><br>
-            <input type="email" name="email" placeholder="Enter your email address" required><br>
-            <label>phone number:</label><br>
-            <input type="tel" name="phone" placeholder="Enter your phone number" required><br>
-            <label>date of birth:</label><br>
-            <input type="date" name="dob" required><br>
-            <label>gender:</label><br>
-            <input type="radio" name="gender" value="male" required> Male<br>
-            <input type="radio" name="gender" value="female" required> Female<br>
-            <input type="radio" name="gender" value="other" required> Other<br>
-            <br>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>job information</legend>
-            <label>position applied for:</label><br>
-            <select name="position">
-                <option selected>software developer</option>
-                <option>web designer</option>
-                <option>database administrator</option>
-                <option>it support officer</option>
+
+    <header class="header">
+
+        <div class="container">
+
+            <h1>Dhaka College</h1>
+
+            <nav class="navbar">
+
+                <ul class="nav-list">
+
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">About</a></li>
+                    <li class="nav-item"><a href="#">Courses</a></li>
+                    <li class="nav-item"><a href="#">Admission</a></li>
+                    <li class="nav-item"><a href="#">Contact</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <section class="welcome">
+
+        <div class="container">
+
+            <h2>Welcome to Dhaka College</h2>
+
+            <p>
+                Dhaka College provides quality education and helps students
+                achieve academic excellence.
+            </p>
+
+            <button>Apply Now</button>
+
+        </div>
+
+    </section>
+
+    <section class="container">
+
+        <h2>Our Courses</h2>
+
+        <div class="courses">
+
+            <div class="course-card">
+
+                
+                <h3>Computer Science</h3>
+
+                <p>Learn programming and software development.</p>
+
+            </div>
+
+            <div class="course-card">
+                <span class="badge">New</span>
+
+
+                <h3>Business Administration</h3>
+
+                <p>Study business management and entrepreneurship.</p>
+
+            </div>
+
+            <div class="course-card">
+
+                <h3>Electrical Engineering</h3>
+
+                <p>Learn electronics and power systems.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container">
+
+        <h2>Notice Board</h2>
+
+        <div class="notice">
+
+            Admission is now open for Fall 2026.
+            Students are requested to complete registration before the deadline.
+            Classes will begin from September.
+            Please visit the admission office for more information.
+            Admission is now open for Fall 2026.
+            Students are requested to complete registration before the deadline.
+            Classes will begin from September.
+            Please visit the admission office for more information.
+
+        </div>
+
+    </section>
+
+    <section class="container">
+
+        <h2>Campus</h2>
+
+        <div class="campus">
+
+            <div class="image-box">
+                <img src="images.jpg" alt="Campus Image">
+
+              
+
+            </div>
             
 
-            </select><br>
-            <label>experience level:</label><br>
-            <select name="experience">
-                <option selected>fresher</option>
-                <option>1-2 years</option>
-                <option>3-5 years</option>
-                <option>more than 5 years</option>
-            </select>
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>skills</legend
-                >
-                <input type ="checkbox" name="skills" value="html"> HTML<br>
-                <input type ="checkbox" name="skills" value="css"> CSS<br>
-                <input type ="checkbox" name="skills" value="javascript"> JavaScript<br>
-                <input type ="checkbox" name="skills" value="python"> Python<br>
-                <input type ="checkbox" name="skills" value="sql"> SQL<br>
-               
-            </fieldset>
-           <br>
-           <fildset>
-            <legend>additional information</legend>
-            <label>upload resume/cv:</label><br>
-            <input type="file" name="resume"><br>
-            <label>cover letter:</label><br>
-            <textarea name="coverletter" rows="5" cols="40"></textarea><br>
-            <label>current address:</label><br>
-            <textarea name="address" rows="3" cols="40"></textarea><br>
-           </fildset>
-           <br>
-           <button type="submit">Submit</button>    
-           <button type="reset">Reset</button>
-           
+            <div class="info-box">
 
-        </form>
-    </body>
+                Visit Our Campus
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <a href="#" class="contact-btn">
+
+        Contact Us
+
+    </a>
+
+    <footer>
+
+        <p>Dhaka College</p>
+
+        <p>Email: info@dhakacollege.edu</p>
+
+        <p>Phone: +880-1712345678</p>
+
+    </footer>
+
+</body>
 </html>
